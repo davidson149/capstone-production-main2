@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assests/index.css" />
+  </head>
+  <body>
+    <header class="heads">
+        <h1 id="title">The Random Recipe Book</h1>
+    </header>
+    
+    <main class="main">
+        <p>
+        Welcome to The Random Recipe Book! Where you use the sad lonely
+          ingredients in your fridge and see if you can find a recipe that fits
+          your style!
+        </p>
+      <hr />
+      <p>
+        Here you will input some ingredients and find recipes that have those
+        ingredients. So if you have chicken but dont know what to make input the
+        ingredients you have here and find a recipe for you!
+      </p>
+      <form class="form">
+        <input id="input" type="text" />
+        <h2 id="insert">Insert ingredients here!</h2>
+        <div>
+          <button class="search" type="submit">Search recipes</button>
+        </div>
+      </form>
+    </main>
+    <!-- <div id="create-recipe">
+       
+</div>      -->
+    <hr />
+<div class="recipe-container">
+
+    <section class="container">
+        <h2>Recipes</h2>
+        <div id="recipes"></div>
+        <!-- <button>Save Recipe</button> -->
+    </section>
+    
+    <div class="vl"></div>
+    
+    <div class="container">
+       <h2>Saved Recipes</h2>
+       <div id="saved"></div>
+        
+    </div>
+    
+</div>
+    <footer class="footer">
+      <h4>Save recipes and enjoy them later!</h4>
+    </footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="assests/index.js"></script>
+  </body>
+</html>
